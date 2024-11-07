@@ -57,8 +57,16 @@
   <ItemGroup>
     <Folder Include="Properties" />
     <Folder Include="Tables" />
+    <Folder Include="Script\" />
   </ItemGroup>
   <ItemGroup>
+    <Build Include="View\V_Clients.sql" />
+    <Build Include="View\V_ClientsFidelite.sql" />
+    <Build Include="View\V_HistoriqueAchatClient.sql" />
+    <Build Include="View\V_VentesParCollection.sql" />
+    <Build Include="View\V_VolumesStock.sql" />
+    <Build Include="View\V_VolumesStockZero.sql" />
+    <PostDeploy Include="Script\LoadData.sql" />
     <Build Include="Tables\Collection.sql" />
     <Build Include="Tables\Volume.sql" />
     <Build Include="Tables\Client.sql" />

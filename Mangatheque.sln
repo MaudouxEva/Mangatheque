@@ -1,6 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mangatheque", "Mangatheque\Mangatheque.csproj", "{9304A96D-F12C-48DF-AD14-0FB4B0E672BA}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mangatheque.API", "Mangatheque.API\Mangatheque.API.csproj", "{9304A96D-F12C-48DF-AD14-0FB4B0E672BA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Mangatheque.DB", "Mangatheque.DB\Mangatheque.DB.sqlproj", "{E8640BB4-6A9D-474A-9105-D9B312BC84C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mangatheque.DAL", "Mangatheque.DAL\Mangatheque.DAL.csproj", "{DFABF486-B3BA-46FC-992C-905BFAE52D91}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mangatheque.BLL", "Mangatheque.BLL\Mangatheque.BLL.csproj", "{F54AC837-3D20-4482-834A-29767D9F44DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -12,5 +21,25 @@ Global
 		{9304A96D-F12C-48DF-AD14-0FB4B0E672BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9304A96D-F12C-48DF-AD14-0FB4B0E672BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9304A96D-F12C-48DF-AD14-0FB4B0E672BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8640BB4-6A9D-474A-9105-D9B312BC84C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8640BB4-6A9D-474A-9105-D9B312BC84C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8640BB4-6A9D-474A-9105-D9B312BC84C7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{E8640BB4-6A9D-474A-9105-D9B312BC84C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8640BB4-6A9D-474A-9105-D9B312BC84C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8640BB4-6A9D-474A-9105-D9B312BC84C7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{DFABF486-B3BA-46FC-992C-905BFAE52D91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFABF486-B3BA-46FC-992C-905BFAE52D91}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFABF486-B3BA-46FC-992C-905BFAE52D91}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFABF486-B3BA-46FC-992C-905BFAE52D91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F54AC837-3D20-4482-834A-29767D9F44DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F54AC837-3D20-4482-834A-29767D9F44DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F54AC837-3D20-4482-834A-29767D9F44DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F54AC837-3D20-4482-834A-29767D9F44DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {668F9DAA-BEF4-4382-B382-783472E1E72A}
 	EndGlobalSection
 EndGlobal

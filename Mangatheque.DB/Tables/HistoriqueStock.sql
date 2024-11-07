@@ -8,5 +8,5 @@
     
     CONSTRAINT PK_HistoriqueStock PRIMARY KEY ([HistoriqueStockId]),
     CONSTRAINT FK_HistoriqueStock_Volume FOREIGN KEY ([VolumeId]) REFERENCES [dbo].[Volume]([VolumeId]),
-    CONSTRAINT FK_HistoriqueStock_Vendeur FOREIGN KEY ([VendeurId]) REFERENCES [dbo].[Vendeur]([VendeurId])
+    CONSTRAINT FK_HistoriqueStock_Vendeur FOREIGN KEY ([VendeurId]) REFERENCES [dbo].[Vendeur]([VendeurId]),
 )

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/Mangatheque.DB/Script/LoadData.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Mangatheque.DB/Tables/Collection.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Mangatheque.DB/Tables/Commande.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Mangatheque.DB/Tables/Vendeur.sql" dialect="TSQL" />
+    <file url="file://$PROJECT_DIR$/Mangatheque.DB/Tables/Volume.sql" dialect="TSQL" />
+    <file url="PROJECT" dialect="TSQL" />
+  </component>
+</project>
